@@ -1,0 +1,54 @@
+2024-02-05 23:20:02 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (C:\dev\Datharm\MOC-BackendAPI\node_modules\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (C:\dev\Datharm\MOC-BackendAPI\node_modules\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (C:\dev\Datharm\MOC-BackendAPI\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (C:\dev\Datharm\MOC-BackendAPI\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (C:\dev\Datharm\MOC-BackendAPI\node_modules\src\driver\DriverFactory.ts:34:24)
+    at new Connection (C:\dev\Datharm\MOC-BackendAPI\node_modules\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (C:\dev\Datharm\MOC-BackendAPI\node_modules\src\connection\ConnectionManager.ts:61:28)
+    at C:\dev\Datharm\MOC-BackendAPI\src\globals.ts:77:35
+    at step (C:\dev\Datharm\MOC-BackendAPI\node_modules\tslib\tslib.js:143:27)
+    at Object.next (C:\dev\Datharm\MOC-BackendAPI\node_modules\tslib\tslib.js:124:57)
+2024-02-05 23:21:05 error: uncaughtException: connect ECONNREFUSED ::1:5432
+Error: connect ECONNREFUSED ::1:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1487:16)
+    --------------------
+    at Protocol._enqueue (C:\dev\Datharm\MOC-BackendAPI\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\dev\Datharm\MOC-BackendAPI\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\dev\Datharm\MOC-BackendAPI\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\dev\Datharm\MOC-BackendAPI\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\dev\Datharm\MOC-BackendAPI\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (C:\dev\Datharm\MOC-BackendAPI\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (C:\dev\Datharm\MOC-BackendAPI\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (C:\dev\Datharm\MOC-BackendAPI\node_modules\tslib\tslib.js:143:27)
+    at Object.next (C:\dev\Datharm\MOC-BackendAPI\node_modules\tslib\tslib.js:124:57)
+2024-02-05 23:21:36 error: uncaughtException: connect ECONNREFUSED ::1:5432
+Error: connect ECONNREFUSED ::1:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1487:16)
+    --------------------
+    at Protocol._enqueue (C:\dev\Datharm\MOC-BackendAPI\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\dev\Datharm\MOC-BackendAPI\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\dev\Datharm\MOC-BackendAPI\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\dev\Datharm\MOC-BackendAPI\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\dev\Datharm\MOC-BackendAPI\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (C:\dev\Datharm\MOC-BackendAPI\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (C:\dev\Datharm\MOC-BackendAPI\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (C:\dev\Datharm\MOC-BackendAPI\node_modules\tslib\tslib.js:143:27)
+    at Object.next (C:\dev\Datharm\MOC-BackendAPI\node_modules\tslib\tslib.js:124:57)
+2024-02-05 23:24:02 error: uncaughtException: connect ECONNREFUSED ::1:5432
+Error: connect ECONNREFUSED ::1:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1487:16)
+    --------------------
+    at Protocol._enqueue (C:\dev\Datharm\MOC-BackendAPI\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\dev\Datharm\MOC-BackendAPI\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\dev\Datharm\MOC-BackendAPI\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\dev\Datharm\MOC-BackendAPI\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\dev\Datharm\MOC-BackendAPI\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (C:\dev\Datharm\MOC-BackendAPI\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (C:\dev\Datharm\MOC-BackendAPI\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (C:\dev\Datharm\MOC-BackendAPI\node_modules\tslib\tslib.js:143:27)
+    at Object.next (C:\dev\Datharm\MOC-BackendAPI\node_modules\tslib\tslib.js:124:57)

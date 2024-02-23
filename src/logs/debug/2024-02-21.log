@@ -1,0 +1,467 @@
+2024-02-21 12:08:10 info: =================================
+2024-02-21 12:08:10 info: ======= ENV: development =======
+2024-02-21 12:08:10 info: 🚀 App listening on the port 3000
+2024-02-21 12:08:10 info: =================================
+2024-02-21 12:08:22 info: [0mGET /api-docs [36m301[0m 8.999 ms - 183[0m
+2024-02-21 12:08:23 info: [0mGET /api-docs/ [32m200[0m 147.338 ms - -[0m
+2024-02-21 12:08:23 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 1.738 ms - -[0m
+2024-02-21 12:08:23 info: [0mGET /api-docs/swagger-ui.css [32m200[0m 26.929 ms - -[0m
+2024-02-21 12:08:23 info: [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 15.484 ms - -[0m
+2024-02-21 12:08:23 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 147.220 ms - -[0m
+2024-02-21 12:08:24 info: [0mGET /api-docs/favicon-32x32.png [32m200[0m 3.079 ms - 628[0m
+2024-02-21 12:09:01 error: [GET] /users >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2024-02-21 12:09:01 info: [0mGET /users [31m500[0m 4.501 ms - 52[0m
+2024-02-21 12:09:14 info: =================================
+2024-02-21 12:09:14 info: ======= ENV: development =======
+2024-02-21 12:09:14 info: 🚀 App listening on the port 3000
+2024-02-21 12:09:14 info: =================================
+2024-02-21 12:09:24 info: =================================
+2024-02-21 12:09:24 info: ======= ENV: development =======
+2024-02-21 12:09:24 info: 🚀 App listening on the port 3000
+2024-02-21 12:09:24 info: =================================
+2024-02-21 12:09:32 info: [0mGET /users [32m200[0m 24.785 ms - 296[0m
+2024-02-21 12:13:46 info: =================================
+2024-02-21 12:13:46 info: ======= ENV: development =======
+2024-02-21 12:13:46 info: 🚀 App listening on the port 3000
+2024-02-21 12:13:46 info: =================================
+2024-02-21 12:13:46 info: [0mGET /api-docs/ [36m304[0m 7.054 ms - -[0m
+2024-02-21 12:13:46 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 4.103 ms - -[0m
+2024-02-21 12:13:46 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 1.748 ms - -[0m
+2024-02-21 12:13:46 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 9.295 ms - -[0m
+2024-02-21 12:13:46 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 3.858 ms - -[0m
+2024-02-21 12:13:47 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.234 ms - -[0m
+2024-02-21 12:14:01 info: =================================
+2024-02-21 12:14:01 info: ======= ENV: development =======
+2024-02-21 12:14:01 info: 🚀 App listening on the port 3000
+2024-02-21 12:14:01 info: =================================
+2024-02-21 12:16:08 info: =================================
+2024-02-21 12:16:08 info: ======= ENV: development =======
+2024-02-21 12:16:08 info: 🚀 App listening on the port 3000
+2024-02-21 12:16:08 info: =================================
+2024-02-21 12:19:29 info: =================================
+2024-02-21 12:19:29 info: ======= ENV: development =======
+2024-02-21 12:19:29 info: 🚀 App listening on the port 3000
+2024-02-21 12:19:29 info: =================================
+2024-02-21 12:19:51 info: [0mGET /api-docs/ [36m304[0m 19.633 ms - -[0m
+2024-02-21 12:19:51 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 5.523 ms - -[0m
+2024-02-21 12:19:51 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 16.025 ms - -[0m
+2024-02-21 12:19:51 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 16.500 ms - -[0m
+2024-02-21 12:19:51 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 6.193 ms - -[0m
+2024-02-21 12:19:52 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 5.288 ms - -[0m
+2024-02-21 12:22:40 info: =================================
+2024-02-21 12:22:40 info: ======= ENV: development =======
+2024-02-21 12:22:40 info: 🚀 App listening on the port 3000
+2024-02-21 12:22:40 info: =================================
+2024-02-21 12:22:48 info: [0mPOST /auth [33m404[0m 38.476 ms - 144[0m
+2024-02-21 12:23:17 info: =================================
+2024-02-21 12:23:17 info: ======= ENV: development =======
+2024-02-21 12:23:17 info: 🚀 App listening on the port 3000
+2024-02-21 12:23:17 info: =================================
+2024-02-21 12:23:24 info: [0mGET /api-docs/ [36m304[0m 13.958 ms - -[0m
+2024-02-21 12:23:24 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 5.193 ms - -[0m
+2024-02-21 12:23:24 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 11.710 ms - -[0m
+2024-02-21 12:23:24 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 13.145 ms - -[0m
+2024-02-21 12:23:24 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 4.298 ms - -[0m
+2024-02-21 12:23:24 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.338 ms - -[0m
+2024-02-21 12:23:33 info: [0mGET /users [36m304[0m 13.022 ms - -[0m
+2024-02-21 12:24:01 error: [POST] /auth/login >> StatusCode:: 400, Message:: firstName should not be empty,firstName must be a string, lastName should not be empty,lastName must be a string, locationId should not be empty,locationId must be a string, access should not be empty,access must be a string
+2024-02-21 12:24:01 info: [0mPOST /auth/login [33m400[0m 46.436 ms - 238[0m
+2024-02-21 12:25:34 info: =================================
+2024-02-21 12:25:34 info: ======= ENV: development =======
+2024-02-21 12:25:34 info: 🚀 App listening on the port 3000
+2024-02-21 12:25:34 info: =================================
+2024-02-21 12:26:16 info: =================================
+2024-02-21 12:26:16 info: ======= ENV: development =======
+2024-02-21 12:26:16 info: 🚀 App listening on the port 3000
+2024-02-21 12:26:16 info: =================================
+2024-02-21 12:26:24 info: =================================
+2024-02-21 12:26:24 info: ======= ENV: development =======
+2024-02-21 12:26:24 info: 🚀 App listening on the port 3000
+2024-02-21 12:26:24 info: =================================
+2024-02-21 12:26:35 info: [0mPOST /auth/login [32m200[0m 134.309 ms - 292[0m
+2024-02-21 12:28:11 info: =================================
+2024-02-21 12:28:11 info: ======= ENV: development =======
+2024-02-21 12:28:11 info: 🚀 App listening on the port 3000
+2024-02-21 12:28:11 info: =================================
+2024-02-21 12:28:33 info: =================================
+2024-02-21 12:28:33 info: ======= ENV: development =======
+2024-02-21 12:28:33 info: 🚀 App listening on the port 3000
+2024-02-21 12:28:33 info: =================================
+2024-02-21 12:28:36 info: [0mPOST /auth/login [32m200[0m 121.271 ms - 193[0m
+2024-02-21 12:28:53 info: =================================
+2024-02-21 12:28:53 info: ======= ENV: development =======
+2024-02-21 12:28:53 info: 🚀 App listening on the port 3000
+2024-02-21 12:28:53 info: =================================
+2024-02-21 12:31:42 info: =================================
+2024-02-21 12:31:42 info: ======= ENV: development =======
+2024-02-21 12:31:42 info: 🚀 App listening on the port 3000
+2024-02-21 12:31:42 info: =================================
+2024-02-21 12:32:49 error: [GET] /moc-kpis >> StatusCode:: 404, Message:: Authentication token missing
+2024-02-21 12:32:49 info: [0mGET /moc-kpis [33m404[0m 14.814 ms - 42[0m
+2024-02-21 12:33:20 info: =================================
+2024-02-21 12:33:20 info: ======= ENV: development =======
+2024-02-21 12:33:20 info: 🚀 App listening on the port 3000
+2024-02-21 12:33:20 info: =================================
+2024-02-21 12:33:20 error: [GET] /moc-kpis >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2024-02-21 12:33:20 info: [0mGET /moc-kpis [31m500[0m 19.979 ms - 52[0m
+2024-02-21 12:34:23 info: =================================
+2024-02-21 12:34:23 info: ======= ENV: development =======
+2024-02-21 12:34:23 info: 🚀 App listening on the port 3000
+2024-02-21 12:34:23 info: =================================
+2024-02-21 12:34:23 error: [GET] /moc-kpis >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2024-02-21 12:34:23 info: [0mGET /moc-kpis [31m500[0m 19.950 ms - 52[0m
+2024-02-21 12:35:20 info: =================================
+2024-02-21 12:35:20 info: ======= ENV: development =======
+2024-02-21 12:35:20 info: 🚀 App listening on the port 3000
+2024-02-21 12:35:20 info: =================================
+2024-02-21 12:35:21 info: [0mGET /moc-kpis [32m200[0m 31.301 ms - 475[0m
+2024-02-21 12:36:06 info: =================================
+2024-02-21 12:36:06 info: ======= ENV: development =======
+2024-02-21 12:36:06 info: 🚀 App listening on the port 3000
+2024-02-21 12:36:06 info: =================================
+2024-02-21 12:36:09 error: [GET] /moc-kpis >> StatusCode:: 404, Message:: Authentication token missing
+2024-02-21 12:36:09 info: [0mGET /moc-kpis [33m404[0m 8.925 ms - 42[0m
+2024-02-21 12:36:50 info: [0mGET /moc-kpis [32m200[0m 30.604 ms - 475[0m
+2024-02-21 12:37:37 info: =================================
+2024-02-21 12:37:37 info: ======= ENV: development =======
+2024-02-21 12:37:37 info: 🚀 App listening on the port 3000
+2024-02-21 12:37:37 info: =================================
+2024-02-21 12:38:20 error: [POST] /moc-kpis >> StatusCode:: 400, Message:: createdBy must be a number conforming to the specified constraints
+2024-02-21 12:38:20 info: [0mPOST /moc-kpis [33m400[0m 73.369 ms - 80[0m
+2024-02-21 12:38:33 error: [POST] /moc-kpis >> StatusCode:: 400, Message:: createdBy must be a number conforming to the specified constraints
+2024-02-21 12:38:33 info: [0mPOST /moc-kpis [33m400[0m 6.516 ms - 80[0m
+2024-02-21 12:38:35 error: [POST] /moc-kpis >> StatusCode:: 400, Message:: createdBy must be a number conforming to the specified constraints
+2024-02-21 12:38:35 info: [0mPOST /moc-kpis [33m400[0m 3.647 ms - 80[0m
+2024-02-21 12:38:59 info: =================================
+2024-02-21 12:38:59 info: ======= ENV: development =======
+2024-02-21 12:38:59 info: 🚀 App listening on the port 3000
+2024-02-21 12:38:59 info: =================================
+2024-02-21 12:39:03 error: [POST] /moc-kpis >> StatusCode:: 404, Message:: Authentication token missing
+2024-02-21 12:39:03 info: [0mPOST /moc-kpis [33m404[0m 45.969 ms - 42[0m
+2024-02-21 12:39:11 error: [POST] /moc-kpis >> StatusCode:: 400, Message:: createdBy must be a number conforming to the specified constraints
+2024-02-21 12:39:11 info: [0mPOST /moc-kpis [33m400[0m 27.607 ms - 80[0m
+2024-02-21 12:39:19 error: [POST] /moc-kpis >> StatusCode:: 404, Message:: Authentication token missing
+2024-02-21 12:39:19 info: [0mPOST /moc-kpis [33m404[0m 2.214 ms - 42[0m
+2024-02-21 12:39:52 info: =================================
+2024-02-21 12:39:52 info: ======= ENV: development =======
+2024-02-21 12:39:52 info: 🚀 App listening on the port 3000
+2024-02-21 12:39:52 info: =================================
+2024-02-21 12:39:55 error: [POST] /moc-kpis >> StatusCode:: 401, Message:: Authentication token missing
+2024-02-21 12:39:55 info: [0mPOST /moc-kpis [33m401[0m 46.813 ms - 42[0m
+2024-02-21 12:40:03 error: [POST] /moc-kpis >> StatusCode:: 400, Message:: createdBy must be a number conforming to the specified constraints
+2024-02-21 12:40:03 info: [0mPOST /moc-kpis [33m400[0m 28.159 ms - 80[0m
+2024-02-21 12:41:07 error: [POST] /moc-kpis >> StatusCode:: 409, Message:: kpi for 2023 already exists
+2024-02-21 12:41:07 info: [0mPOST /moc-kpis [33m409[0m 19.375 ms - 41[0m
+2024-02-21 12:41:39 info: [0mPOST /moc-kpis [32m201[0m 55.599 ms - 210[0m
+2024-02-21 12:42:27 info: =================================
+2024-02-21 12:42:27 info: ======= ENV: development =======
+2024-02-21 12:42:27 info: 🚀 App listening on the port 3000
+2024-02-21 12:42:27 info: =================================
+2024-02-21 12:42:52 info: [0mPUT /moc-kpis/2 [32m200[0m 86.231 ms - 196[0m
+2024-02-21 12:44:06 info: =================================
+2024-02-21 12:44:06 info: ======= ENV: development =======
+2024-02-21 12:44:06 info: 🚀 App listening on the port 3000
+2024-02-21 12:44:06 info: =================================
+2024-02-21 12:44:30 error: [PUT] /moc-kpis/2 >> StatusCode:: 400, Message:: updatedBy must be a number conforming to the specified constraints
+2024-02-21 12:44:30 info: [0mPUT /moc-kpis/2 [33m400[0m 69.364 ms - 80[0m
+2024-02-21 12:44:40 info: [0mPUT /moc-kpis/2 [32m200[0m 43.045 ms - 196[0m
+2024-02-21 12:45:08 info: =================================
+2024-02-21 12:45:08 info: ======= ENV: development =======
+2024-02-21 12:45:08 info: 🚀 App listening on the port 3000
+2024-02-21 12:45:08 info: =================================
+2024-02-21 12:45:11 info: [0mGET /moc-kpis/2 [32m200[0m 48.020 ms - 196[0m
+2024-02-21 12:46:32 info: [0mGET /moc-kpis/2 [32m200[0m 21.708 ms - 196[0m
+2024-02-21 12:46:44 info: =================================
+2024-02-21 12:46:44 info: ======= ENV: development =======
+2024-02-21 12:46:44 info: 🚀 App listening on the port 3000
+2024-02-21 12:46:44 info: =================================
+2024-02-21 12:46:45 info: [0mGET /moc-kpis/2 [32m200[0m 89.794 ms - 752[0m
+2024-02-21 12:49:20 info: =================================
+2024-02-21 12:49:20 info: ======= ENV: development =======
+2024-02-21 12:49:20 info: 🚀 App listening on the port 3000
+2024-02-21 12:49:20 info: =================================
+2024-02-21 12:51:13 info: =================================
+2024-02-21 12:51:13 info: ======= ENV: development =======
+2024-02-21 12:51:13 info: 🚀 App listening on the port 3000
+2024-02-21 12:51:13 info: =================================
+2024-02-21 15:01:05 info: [0mGET /api-docs/ [36m304[0m 74.446 ms - -[0m
+2024-02-21 15:01:05 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 3.133 ms - -[0m
+2024-02-21 15:01:05 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 20.507 ms - -[0m
+2024-02-21 15:01:05 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 17.724 ms - -[0m
+2024-02-21 15:01:05 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 17.945 ms - -[0m
+2024-02-21 15:01:05 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 2.113 ms - -[0m
+2024-02-21 15:06:49 info: =================================
+2024-02-21 15:06:49 info: ======= ENV: development =======
+2024-02-21 15:06:49 info: 🚀 App listening on the port 3000
+2024-02-21 15:06:49 info: =================================
+2024-02-21 15:08:43 info: =================================
+2024-02-21 15:08:43 info: ======= ENV: development =======
+2024-02-21 15:08:43 info: 🚀 App listening on the port 3000
+2024-02-21 15:08:43 info: =================================
+2024-02-21 15:08:48 info: [0mGET /api-docs/ [36m304[0m 8.801 ms - -[0m
+2024-02-21 15:08:48 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 5.871 ms - -[0m
+2024-02-21 15:08:48 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 3.885 ms - -[0m
+2024-02-21 15:08:48 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 11.666 ms - -[0m
+2024-02-21 15:08:48 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 7.160 ms - -[0m
+2024-02-21 15:08:49 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.424 ms - -[0m
+2024-02-21 15:10:23 info: =================================
+2024-02-21 15:10:23 info: ======= ENV: development =======
+2024-02-21 15:10:23 info: 🚀 App listening on the port 3000
+2024-02-21 15:10:23 info: =================================
+2024-02-21 15:10:25 info: [0mGET /api-docs/ [36m304[0m 12.801 ms - -[0m
+2024-02-21 15:10:25 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 4.780 ms - -[0m
+2024-02-21 15:10:25 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 12.336 ms - -[0m
+2024-02-21 15:10:25 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 14.910 ms - -[0m
+2024-02-21 15:10:25 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 6.707 ms - -[0m
+2024-02-21 15:10:25 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.564 ms - -[0m
+2024-02-21 15:10:42 info: =================================
+2024-02-21 15:10:42 info: ======= ENV: development =======
+2024-02-21 15:10:42 info: 🚀 App listening on the port 3000
+2024-02-21 15:10:42 info: =================================
+2024-02-21 15:11:24 info: [0mGET /api-docs/ [36m304[0m 8.711 ms - -[0m
+2024-02-21 15:11:24 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 4.983 ms - -[0m
+2024-02-21 15:11:24 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 2.628 ms - -[0m
+2024-02-21 15:11:24 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 2.471 ms - -[0m
+2024-02-21 15:11:24 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 9.097 ms - -[0m
+2024-02-21 15:11:25 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.048 ms - -[0m
+2024-02-21 15:11:58 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Authentication token missing
+2024-02-21 15:11:58 info: [0mGET /moc-kpis [33m401[0m 3.944 ms - 42[0m
+2024-02-21 15:19:07 info: =================================
+2024-02-21 15:19:07 info: ======= ENV: development =======
+2024-02-21 15:19:07 info: 🚀 App listening on the port 3000
+2024-02-21 15:19:07 info: =================================
+2024-02-21 15:19:18 info: =================================
+2024-02-21 15:19:18 info: ======= ENV: development =======
+2024-02-21 15:19:18 info: 🚀 App listening on the port 3000
+2024-02-21 15:19:18 info: =================================
+2024-02-21 15:19:57 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 15:19:57 info: [0mGET /moc-kpis [33m401[0m 354.488 ms - 40[0m
+2024-02-21 15:20:35 info: [0mPOST /auth/login [32m200[0m 129.879 ms - 193[0m
+2024-02-21 15:22:03 info: =================================
+2024-02-21 15:22:03 info: ======= ENV: development =======
+2024-02-21 15:22:03 info: 🚀 App listening on the port 3000
+2024-02-21 15:22:03 info: =================================
+2024-02-21 15:28:20 info: =================================
+2024-02-21 15:28:20 info: ======= ENV: development =======
+2024-02-21 15:28:20 info: 🚀 App listening on the port 3000
+2024-02-21 15:28:20 info: =================================
+2024-02-21 15:29:03 info: =================================
+2024-02-21 15:29:03 info: ======= ENV: development =======
+2024-02-21 15:29:03 info: 🚀 App listening on the port 3000
+2024-02-21 15:29:03 info: =================================
+2024-02-21 15:29:58 info: =================================
+2024-02-21 15:29:58 info: ======= ENV: development =======
+2024-02-21 15:29:58 info: 🚀 App listening on the port 3000
+2024-02-21 15:29:58 info: =================================
+2024-02-21 15:31:02 info: =================================
+2024-02-21 15:31:02 info: ======= ENV: development =======
+2024-02-21 15:31:02 info: 🚀 App listening on the port 3000
+2024-02-21 15:31:02 info: =================================
+2024-02-21 15:43:02 info: =================================
+2024-02-21 15:43:02 info: ======= ENV: development =======
+2024-02-21 15:43:02 info: 🚀 App listening on the port 3000
+2024-02-21 15:43:02 info: =================================
+2024-02-21 15:43:02 error: [POST] /auth/login >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2024-02-21 15:43:03 info: [0mPOST /auth/login [31m500[0m 61.660 ms - 52[0m
+2024-02-21 15:43:08 info: [0mPOST /auth/login [32m200[0m 95.059 ms - 466[0m
+2024-02-21 15:52:18 info: [0mOPTIONS /auth/login [32m204[0m 0.423 ms - 0[0m
+2024-02-21 15:52:18 error: [POST] /auth/login >> StatusCode:: 409, Message:: Password not matching
+2024-02-21 15:52:18 info: [0mPOST /auth/login [33m409[0m 75.692 ms - 35[0m
+2024-02-21 15:54:47 info: [0mOPTIONS /auth/login [32m204[0m 0.184 ms - 0[0m
+2024-02-21 15:54:47 info: [0mPOST /auth/login [32m200[0m 69.574 ms - 466[0m
+2024-02-21 15:56:47 info: [0mOPTIONS /auth/login [32m204[0m 0.212 ms - 0[0m
+2024-02-21 15:56:47 info: [0mPOST /auth/login [32m200[0m 68.102 ms - 466[0m
+2024-02-21 16:00:21 info: [0mOPTIONS /auth/login [32m204[0m 0.282 ms - 0[0m
+2024-02-21 16:00:21 error: [POST] /auth/login >> StatusCode:: 409, Message:: Password not matching
+2024-02-21 16:00:21 info: [0mPOST /auth/login [33m409[0m 76.244 ms - 35[0m
+2024-02-21 16:01:13 info: [0mOPTIONS /auth/login [32m204[0m 0.208 ms - 0[0m
+2024-02-21 16:01:13 info: [0mPOST /auth/login [32m200[0m 65.435 ms - 466[0m
+2024-02-21 16:02:18 info: =================================
+2024-02-21 16:02:18 info: ======= ENV: development =======
+2024-02-21 16:02:18 info: 🚀 App listening on the port 3000
+2024-02-21 16:02:18 info: =================================
+2024-02-21 16:02:20 info: [0mOPTIONS /auth/login [32m204[0m 1.721 ms - 0[0m
+2024-02-21 16:02:20 info: [0mPOST /auth/login [32m200[0m 106.688 ms - 440[0m
+2024-02-21 16:47:30 info: [0mOPTIONS /auth/login [32m204[0m 7.301 ms - 0[0m
+2024-02-21 16:47:31 info: [0mPOST /auth/login [32m200[0m 169.001 ms - 440[0m
+2024-02-21 16:48:22 info: [0mOPTIONS /auth/login [32m204[0m 1.725 ms - 0[0m
+2024-02-21 16:48:22 info: [0mPOST /auth/login [32m200[0m 78.939 ms - 440[0m
+2024-02-21 16:55:43 info: [0mOPTIONS /auth/login [32m204[0m 0.637 ms - 0[0m
+2024-02-21 16:55:43 info: [0mPOST /auth/login [32m200[0m 77.903 ms - 440[0m
+2024-02-21 16:56:41 info: [0mOPTIONS /auth/login [32m204[0m 0.332 ms - 0[0m
+2024-02-21 16:56:41 info: [0mPOST /auth/login [32m200[0m 122.635 ms - 440[0m
+2024-02-21 17:01:25 info: [0mOPTIONS /users [32m204[0m 0.145 ms - 0[0m
+2024-02-21 17:01:25 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:01:25 info: [0mGET /users [33m401[0m 49.981 ms - 40[0m
+2024-02-21 17:01:36 info: [0mOPTIONS /auth/login [32m204[0m 82.005 ms - 0[0m
+2024-02-21 17:01:37 info: [0mPOST /auth/login [32m200[0m 250.184 ms - 440[0m
+2024-02-21 17:02:38 info: [0mOPTIONS /users [32m204[0m 0.217 ms - 0[0m
+2024-02-21 17:02:38 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:02:38 info: [0mGET /users [33m401[0m 8.354 ms - 40[0m
+2024-02-21 17:04:36 info: [0mOPTIONS /auth/login [32m204[0m 0.582 ms - 0[0m
+2024-02-21 17:04:36 info: [0mPOST /auth/login [32m200[0m 79.694 ms - 440[0m
+2024-02-21 17:04:56 info: [0mOPTIONS /users [32m204[0m 0.340 ms - 0[0m
+2024-02-21 17:04:56 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:04:56 info: [0mGET /users [33m401[0m 3.132 ms - 40[0m
+2024-02-21 17:06:04 info: [0mOPTIONS /auth/login [32m204[0m 0.162 ms - 0[0m
+2024-02-21 17:06:04 info: [0mPOST /auth/login [32m200[0m 72.413 ms - 440[0m
+2024-02-21 17:06:12 info: [0mOPTIONS /users [32m204[0m 0.354 ms - 0[0m
+2024-02-21 17:06:12 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:06:12 info: [0mGET /users [33m401[0m 2.222 ms - 40[0m
+2024-02-21 17:08:04 info: [0mPOST /auth/login [32m200[0m 75.024 ms - 440[0m
+2024-02-21 17:09:44 info: [0mOPTIONS /users [32m204[0m 0.145 ms - 0[0m
+2024-02-21 17:09:44 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:09:44 info: [0mGET /users [33m401[0m 1.391 ms - 40[0m
+2024-02-21 17:10:10 info: [0mOPTIONS /users [32m204[0m 0.214 ms - 0[0m
+2024-02-21 17:10:10 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:10:10 info: [0mGET /users [33m401[0m 1.735 ms - 40[0m
+2024-02-21 17:10:17 info: [0mOPTIONS /users [32m204[0m 0.118 ms - 0[0m
+2024-02-21 17:10:17 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:10:17 info: [0mGET /users [33m401[0m 6.311 ms - 40[0m
+2024-02-21 17:10:30 info: [0mOPTIONS /auth/login [32m204[0m 0.111 ms - 0[0m
+2024-02-21 17:10:30 info: [0mPOST /auth/login [32m200[0m 67.869 ms - 440[0m
+2024-02-21 17:10:50 info: [0mOPTIONS /users [32m204[0m 0.133 ms - 0[0m
+2024-02-21 17:10:50 info: [0mGET /users [36m304[0m 31.863 ms - -[0m
+2024-02-21 17:13:33 info: [0mOPTIONS /users [32m204[0m 0.149 ms - 0[0m
+2024-02-21 17:13:33 info: [0mGET /users [36m304[0m 27.335 ms - -[0m
+2024-02-21 17:14:20 info: =================================
+2024-02-21 17:14:20 info: ======= ENV: development =======
+2024-02-21 17:14:20 info: 🚀 App listening on the port 3000
+2024-02-21 17:14:20 info: =================================
+2024-02-21 17:14:25 info: [0mOPTIONS /users [32m204[0m 1.361 ms - 0[0m
+2024-02-21 17:14:25 info: [0mGET /users [32m200[0m 20.209 ms - 297[0m
+2024-02-21 17:14:38 info: [0mOPTIONS /users [32m204[0m 0.276 ms - 0[0m
+2024-02-21 17:14:38 info: [0mGET /users [36m304[0m 8.491 ms - -[0m
+2024-02-21 17:14:58 info: [0mOPTIONS /users [32m204[0m 0.217 ms - 0[0m
+2024-02-21 17:14:58 info: [0mGET /users [36m304[0m 32.207 ms - -[0m
+2024-02-21 17:15:06 info: [0mOPTIONS /users [32m204[0m 0.270 ms - 0[0m
+2024-02-21 17:15:06 info: [0mGET /users [36m304[0m 11.786 ms - -[0m
+2024-02-21 17:15:20 info: [0mOPTIONS /users [32m204[0m 0.124 ms - 0[0m
+2024-02-21 17:15:20 info: [0mGET /users [36m304[0m 6.164 ms - -[0m
+2024-02-21 17:15:36 info: [0mOPTIONS /users [32m204[0m 0.138 ms - 0[0m
+2024-02-21 17:15:36 info: [0mGET /users [36m304[0m 11.120 ms - -[0m
+2024-02-21 17:18:18 info: [0mOPTIONS /users [32m204[0m 0.689 ms - 0[0m
+2024-02-21 17:18:18 info: [0mGET /users [36m304[0m 6.531 ms - -[0m
+2024-02-21 17:20:10 info: [0mOPTIONS /users [32m204[0m 0.228 ms - 0[0m
+2024-02-21 17:20:10 info: [0mGET /users [36m304[0m 3.468 ms - -[0m
+2024-02-21 17:25:08 info: [0mOPTIONS /users [32m204[0m 0.223 ms - 0[0m
+2024-02-21 17:25:08 info: [0mGET /users [36m304[0m 6.857 ms - -[0m
+2024-02-21 17:42:41 info: [0mOPTIONS /users [32m204[0m 2.058 ms - 0[0m
+2024-02-21 17:42:41 info: [0mGET /users [36m304[0m 69.821 ms - -[0m
+2024-02-21 17:45:37 info: [0mOPTIONS /users [32m204[0m 0.272 ms - 0[0m
+2024-02-21 17:45:37 info: [0mGET /users [36m304[0m 11.697 ms - -[0m
+2024-02-21 17:47:11 info: [0mOPTIONS /users [32m204[0m 0.264 ms - 0[0m
+2024-02-21 17:47:11 info: [0mGET /users [36m304[0m 17.456 ms - -[0m
+2024-02-21 17:48:00 error: [GET] /users >> StatusCode:: 401, Message:: Authentication token missing
+2024-02-21 17:48:00 info: [0mGET /users [33m401[0m 50.674 ms - 42[0m
+2024-02-21 17:49:48 info: [0mOPTIONS /users [32m204[0m 0.220 ms - 0[0m
+2024-02-21 17:49:48 error: [POST] /users >> StatusCode:: 400, Message:: locationId must be a string
+2024-02-21 17:49:48 info: [0mPOST /users [33m400[0m 297.016 ms - 41[0m
+2024-02-21 17:52:58 info: [0mOPTIONS /users [32m204[0m 0.367 ms - 0[0m
+2024-02-21 17:52:58 info: [0mPOST /users [32m201[0m 306.717 ms - 292[0m
+2024-02-21 17:52:58 info: [0mGET /users [32m200[0m 10.098 ms - 561[0m
+2024-02-21 17:54:29 info: [0mOPTIONS /users/1 [32m204[0m 0.296 ms - 0[0m
+2024-02-21 17:54:29 error: [PUT] /users/1 >> StatusCode:: 400, Message:: password must be shorter than or equal to 32 characters
+2024-02-21 17:54:29 info: [0mPUT /users/1 [33m400[0m 13.984 ms - 69[0m
+2024-02-21 17:54:46 info: [0mOPTIONS /users [32m204[0m 0.220 ms - 0[0m
+2024-02-21 17:54:46 info: [0mGET /users [36m304[0m 38.955 ms - -[0m
+2024-02-21 17:55:34 info: [0mOPTIONS /users [32m204[0m 0.243 ms - 0[0m
+2024-02-21 17:55:34 info: [0mGET /users [36m304[0m 33.797 ms - -[0m
+2024-02-21 17:58:13 info: [0mOPTIONS /users [32m204[0m 0.268 ms - 0[0m
+2024-02-21 17:58:13 info: [0mGET /users [36m304[0m 4.898 ms - -[0m
+2024-02-21 17:59:52 info: [0mOPTIONS /users [32m204[0m 0.249 ms - 0[0m
+2024-02-21 17:59:52 info: [0mGET /users [36m304[0m 9.247 ms - -[0m
+2024-02-21 18:02:20 info: [0mOPTIONS /users/1 [32m204[0m 0.373 ms - 0[0m
+2024-02-21 18:02:20 info: [0mPUT /users/1 [32m200[0m 186.703 ms - 293[0m
+2024-02-21 18:02:20 info: [0mOPTIONS /users [32m204[0m 0.216 ms - 0[0m
+2024-02-21 18:02:20 info: [0mGET /users [32m200[0m 7.520 ms - 560[0m
+2024-02-21 18:08:24 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 18:08:24 info: [0mGET /moc-kpis [33m401[0m 17.465 ms - 40[0m
+2024-02-21 18:09:11 info: [0mGET /moc-kpis [32m200[0m 57.870 ms - 919[0m
+2024-02-21 18:10:58 info: [0mOPTIONS /moc-kpis [32m204[0m 0.249 ms - 0[0m
+2024-02-21 18:10:58 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 18:10:58 info: [0mGET /moc-kpis [33m401[0m 23.820 ms - 40[0m
+2024-02-21 18:11:01 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 18:11:01 info: [0mGET /moc-kpis [33m401[0m 2.999 ms - 40[0m
+2024-02-21 18:11:31 info: [0mOPTIONS /users [32m204[0m 0.169 ms - 0[0m
+2024-02-21 18:11:31 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 18:11:31 info: [0mGET /users [33m401[0m 2.430 ms - 40[0m
+2024-02-21 18:11:43 info: [0mOPTIONS /auth/login [32m204[0m 0.211 ms - 0[0m
+2024-02-21 18:11:43 error: [POST] /auth/login >> StatusCode:: 409, Message:: This email super-admin@demo.com was not found
+2024-02-21 18:11:43 info: [0mPOST /auth/login [33m409[0m 21.854 ms - 59[0m
+2024-02-21 18:11:53 info: [0mOPTIONS /auth/login [32m204[0m 0.190 ms - 0[0m
+2024-02-21 18:11:53 info: [0mPOST /auth/login [32m200[0m 137.356 ms - 439[0m
+2024-02-21 18:12:03 info: [0mOPTIONS /moc-kpis [32m204[0m 0.255 ms - 0[0m
+2024-02-21 18:12:03 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 18:12:03 info: [0mGET /moc-kpis [33m401[0m 2.351 ms - 40[0m
+2024-02-21 18:36:36 info: [0mOPTIONS /moc-kpis [32m204[0m 0.354 ms - 0[0m
+2024-02-21 18:36:36 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 18:36:36 info: [0mGET /moc-kpis [33m401[0m 2.949 ms - 40[0m
+2024-02-21 18:36:56 info: [0mOPTIONS /moc-kpis [32m204[0m 0.292 ms - 0[0m
+2024-02-21 18:36:56 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 18:36:56 info: [0mGET /moc-kpis [33m401[0m 3.153 ms - 40[0m
+2024-02-21 18:37:03 info: [0mOPTIONS /auth/login [32m204[0m 0.236 ms - 0[0m
+2024-02-21 18:37:03 info: [0mPOST /auth/login [32m200[0m 131.345 ms - 439[0m
+2024-02-21 18:37:35 info: [0mOPTIONS /auth/login [32m204[0m 0.389 ms - 0[0m
+2024-02-21 18:37:35 info: [0mPOST /auth/login [32m200[0m 136.314 ms - 439[0m
+2024-02-21 18:37:46 info: [0mOPTIONS /moc-kpis [32m204[0m 0.297 ms - 0[0m
+2024-02-21 18:37:46 info: [0mGET /moc-kpis [32m200[0m 13.749 ms - 919[0m
+2024-02-21 18:38:50 info: [0mOPTIONS /moc-kpis [32m204[0m 0.306 ms - 0[0m
+2024-02-21 18:38:50 info: [0mGET /moc-kpis [36m304[0m 16.057 ms - -[0m
+2024-02-21 18:40:46 info: [0mOPTIONS /moc-kpis [32m204[0m 0.310 ms - 0[0m
+2024-02-21 18:40:46 info: [0mGET /moc-kpis [36m304[0m 20.226 ms - -[0m
+2024-02-21 18:41:37 info: [0mOPTIONS /moc-kpis [32m204[0m 0.244 ms - 0[0m
+2024-02-21 18:41:37 info: [0mGET /moc-kpis [36m304[0m 16.845 ms - -[0m
+2024-02-21 18:41:49 info: [0mOPTIONS /moc-kpis [32m204[0m 0.311 ms - 0[0m
+2024-02-21 18:41:49 info: [0mGET /moc-kpis [36m304[0m 21.203 ms - -[0m
+2024-02-21 22:44:07 info: [0mOPTIONS /moc-kpis [32m204[0m 0.188 ms - 0[0m
+2024-02-21 22:44:07 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 22:44:07 info: [0mGET /moc-kpis [33m401[0m 10.722 ms - 40[0m
+2024-02-21 22:46:47 info: [0mOPTIONS /auth/login [32m204[0m 0.124 ms - 0[0m
+2024-02-21 22:46:47 info: [0mPOST /auth/login [32m200[0m 98.179 ms - 439[0m
+2024-02-21 22:47:25 info: [0mOPTIONS /auth/login [32m204[0m 0.170 ms - 0[0m
+2024-02-21 22:47:25 info: [0mPOST /auth/login [32m200[0m 89.060 ms - 439[0m
+2024-02-21 22:47:34 info: [0mOPTIONS /moc-kpis [32m204[0m 0.216 ms - 0[0m
+2024-02-21 22:47:34 info: [0mGET /moc-kpis [36m304[0m 16.609 ms - -[0m
+2024-02-21 23:04:15 info: [0mOPTIONS /moc-kpis [32m204[0m 1.359 ms - 0[0m
+2024-02-21 23:04:15 info: [0mGET /moc-kpis [36m304[0m 26.088 ms - -[0m
+2024-02-21 23:04:36 info: [0mOPTIONS /moc-kpis [32m204[0m 0.104 ms - 0[0m
+2024-02-21 23:04:36 info: [0mOPTIONS /moc-kpis [32m204[0m 0.264 ms - 0[0m
+2024-02-21 23:04:36 info: [0mGET /moc-kpis [36m304[0m 7.292 ms - -[0m
+2024-02-21 23:04:36 info: [0mGET /moc-kpis [36m304[0m 7.747 ms - -[0m
+2024-02-21 23:13:05 info: [0mOPTIONS /moc-kpis [32m204[0m 0.179 ms - 0[0m
+2024-02-21 23:13:05 info: [0mPOST /moc-kpis [32m201[0m 73.567 ms - 211[0m
+2024-02-21 23:13:05 info: [0mGET /moc-kpis [32m200[0m 19.992 ms - -[0m
+2024-02-21 23:13:42 info: [0mOPTIONS /moc-kpis [32m204[0m 0.110 ms - 0[0m
+2024-02-21 23:13:42 info: [0mGET /moc-kpis [36m304[0m 11.785 ms - -[0m
+2024-02-21 23:14:17 info: [0mOPTIONS /moc-kpis/3 [32m204[0m 0.212 ms - 0[0m
+2024-02-21 23:14:17 info: [0mPUT /moc-kpis/3 [32m200[0m 39.461 ms - 196[0m
+2024-02-21 23:14:17 info: [0mOPTIONS /moc-kpis [32m204[0m 0.145 ms - 0[0m
+2024-02-21 23:14:17 info: [0mGET /moc-kpis [32m200[0m 11.663 ms - -[0m
+2024-02-21 23:16:41 info: [0mOPTIONS /moc-kpis [32m204[0m 0.212 ms - 0[0m
+2024-02-21 23:16:41 info: [0mGET /moc-kpis [36m304[0m 5.893 ms - -[0m
+2024-02-21 23:25:50 info: [0mOPTIONS /moc-kpis [32m204[0m 0.206 ms - 0[0m
+2024-02-21 23:25:50 error: [POST] /moc-kpis >> StatusCode:: 409, Message:: kpi for 2023 already exists
+2024-02-21 23:25:50 info: [0mPOST /moc-kpis [33m409[0m 11.371 ms - 41[0m
+2024-02-21 23:26:15 info: [0mOPTIONS /moc-kpis [32m204[0m 0.118 ms - 0[0m
+2024-02-21 23:26:15 error: [POST] /moc-kpis >> StatusCode:: 409, Message:: kpi for 2023 already exists
+2024-02-21 23:26:15 info: [0mPOST /moc-kpis [33m409[0m 11.136 ms - 41[0m
+2024-02-21 23:27:36 info: [0mOPTIONS /moc-kpis [32m204[0m 0.254 ms - 0[0m
+2024-02-21 23:27:37 error: [POST] /moc-kpis >> StatusCode:: 409, Message:: kpi for 2023 already exists
+2024-02-21 23:27:37 info: [0mPOST /moc-kpis [33m409[0m 7.632 ms - 41[0m
+2024-02-21 23:28:09 info: [0mOPTIONS /moc-kpis [32m204[0m 0.147 ms - 0[0m
+2024-02-21 23:28:09 error: [POST] /moc-kpis >> StatusCode:: 400, Message:: createdBy must be a number conforming to the specified constraints
+2024-02-21 23:28:09 info: [0mPOST /moc-kpis [33m400[0m 9.462 ms - 80[0m
+2024-02-21 23:29:18 info: [0mOPTIONS /moc-kpis [32m204[0m 0.321 ms - 0[0m
+2024-02-21 23:29:18 info: [0mPOST /moc-kpis [32m201[0m 18.543 ms - 211[0m
+2024-02-21 23:29:18 info: [0mGET /moc-kpis [32m200[0m 6.851 ms - -[0m
+2024-02-21 23:33:48 info: [0mOPTIONS /users [32m204[0m 0.159 ms - 0[0m
+2024-02-21 23:33:48 info: [0mGET /users [36m304[0m 11.947 ms - -[0m
+2024-02-21 23:35:23 info: [0mOPTIONS /moc-kpis [32m204[0m 0.092 ms - 0[0m
+2024-02-21 23:35:23 info: [0mGET /moc-kpis [36m304[0m 4.562 ms - -[0m
+2024-02-21 23:44:41 info: [0mOPTIONS /moc-kpis [32m204[0m 0.202 ms - 0[0m
+2024-02-21 23:44:41 info: [0mGET /moc-kpis [36m304[0m 17.971 ms - -[0m
+2024-02-21 23:44:57 info: [0mOPTIONS /moc-kpis [32m204[0m 0.177 ms - 0[0m
+2024-02-21 23:44:57 info: [0mGET /moc-kpis [36m304[0m 6.177 ms - -[0m
+2024-02-21 23:47:00 info: [0mOPTIONS /users [32m204[0m 0.132 ms - 0[0m
+2024-02-21 23:47:00 info: [0mGET /users [36m304[0m 4.079 ms - -[0m

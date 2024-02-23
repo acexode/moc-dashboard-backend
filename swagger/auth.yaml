@@ -1,0 +1,46 @@
+tags:
+- name: login
+  description: Authentication API
+
+paths:
+# [POST] login
+  /auth/login:
+    post:
+      tags:
+      - login
+      summary: Login user
+      parameters:
+      - name: body
+        in: body
+        description: KPI Data
+        required: true
+        schema:
+          $ref: '#/definitions/auth'
+      responses:
+        201:
+          description: 'Created'
+        400:
+          description: 'Bad Request'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'
+
+# definitions
+definitions:
+  auth:
+    type: object
+    required:
+        - email
+        - password
+
+    properties:
+      email:
+        type: string
+        description: user email
+      password:
+        type: string
+        description: user password
+schemes:
+ - https
+ - http

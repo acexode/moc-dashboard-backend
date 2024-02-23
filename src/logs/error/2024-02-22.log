@@ -1,0 +1,26 @@
+2024-02-22 14:01:01 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-22 14:01:10 error: [POST] /auth/login >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2024-02-22 14:03:06 error: [POST] /auth/login >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2024-02-22 16:16:12 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-22 20:48:45 error: uncaughtException: unknown message code: 59
+AssertionError [ERR_ASSERTION]: unknown message code: 59
+    at Parser.handlePacket (C:\dev\Datharm\MOC-BackendAPI\node_modules\pg-protocol\src\parser.ts:202:16)
+    at Parser.parse (C:\dev\Datharm\MOC-BackendAPI\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\dev\Datharm\MOC-BackendAPI\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2024-02-22 20:49:15 error: uncaughtException: unknown message code: 59
+AssertionError [ERR_ASSERTION]: unknown message code: 59
+    at Parser.handlePacket (C:\dev\Datharm\MOC-BackendAPI\node_modules\pg-protocol\src\parser.ts:202:16)
+    at Parser.parse (C:\dev\Datharm\MOC-BackendAPI\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\dev\Datharm\MOC-BackendAPI\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)

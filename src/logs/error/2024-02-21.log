@@ -1,0 +1,55 @@
+2024-02-21 12:09:01 error: [GET] /users >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2024-02-21 12:24:01 error: [POST] /auth/login >> StatusCode:: 400, Message:: firstName should not be empty,firstName must be a string, lastName should not be empty,lastName must be a string, locationId should not be empty,locationId must be a string, access should not be empty,access must be a string
+2024-02-21 12:32:49 error: [GET] /moc-kpis >> StatusCode:: 404, Message:: Authentication token missing
+2024-02-21 12:33:20 error: [GET] /moc-kpis >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2024-02-21 12:34:23 error: [GET] /moc-kpis >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2024-02-21 12:36:09 error: [GET] /moc-kpis >> StatusCode:: 404, Message:: Authentication token missing
+2024-02-21 12:38:20 error: [POST] /moc-kpis >> StatusCode:: 400, Message:: createdBy must be a number conforming to the specified constraints
+2024-02-21 12:38:33 error: [POST] /moc-kpis >> StatusCode:: 400, Message:: createdBy must be a number conforming to the specified constraints
+2024-02-21 12:38:35 error: [POST] /moc-kpis >> StatusCode:: 400, Message:: createdBy must be a number conforming to the specified constraints
+2024-02-21 12:39:03 error: [POST] /moc-kpis >> StatusCode:: 404, Message:: Authentication token missing
+2024-02-21 12:39:11 error: [POST] /moc-kpis >> StatusCode:: 400, Message:: createdBy must be a number conforming to the specified constraints
+2024-02-21 12:39:19 error: [POST] /moc-kpis >> StatusCode:: 404, Message:: Authentication token missing
+2024-02-21 12:39:55 error: [POST] /moc-kpis >> StatusCode:: 401, Message:: Authentication token missing
+2024-02-21 12:40:03 error: [POST] /moc-kpis >> StatusCode:: 400, Message:: createdBy must be a number conforming to the specified constraints
+2024-02-21 12:41:07 error: [POST] /moc-kpis >> StatusCode:: 409, Message:: kpi for 2023 already exists
+2024-02-21 12:44:30 error: [PUT] /moc-kpis/2 >> StatusCode:: 400, Message:: updatedBy must be a number conforming to the specified constraints
+2024-02-21 15:11:58 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Authentication token missing
+2024-02-21 15:19:57 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 15:29:58 error: uncaughtException: unknown message code: 59
+AssertionError [ERR_ASSERTION]: unknown message code: 59
+    at Parser.handlePacket (C:\dev\Datharm\MOC-BackendAPI\node_modules\pg-protocol\src\parser.ts:202:16)
+    at Parser.parse (C:\dev\Datharm\MOC-BackendAPI\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\dev\Datharm\MOC-BackendAPI\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2024-02-21 15:43:02 error: [POST] /auth/login >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2024-02-21 15:52:18 error: [POST] /auth/login >> StatusCode:: 409, Message:: Password not matching
+2024-02-21 16:00:21 error: [POST] /auth/login >> StatusCode:: 409, Message:: Password not matching
+2024-02-21 17:01:25 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:02:38 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:04:56 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:06:12 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:09:44 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:10:10 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:10:17 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 17:48:00 error: [GET] /users >> StatusCode:: 401, Message:: Authentication token missing
+2024-02-21 17:49:48 error: [POST] /users >> StatusCode:: 400, Message:: locationId must be a string
+2024-02-21 17:54:29 error: [PUT] /users/1 >> StatusCode:: 400, Message:: password must be shorter than or equal to 32 characters
+2024-02-21 18:08:24 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 18:10:58 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 18:11:01 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 18:11:31 error: [GET] /users >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 18:11:43 error: [POST] /auth/login >> StatusCode:: 409, Message:: This email super-admin@demo.com was not found
+2024-02-21 18:12:03 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 18:36:36 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 18:36:56 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 22:44:07 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-21 23:25:50 error: [POST] /moc-kpis >> StatusCode:: 409, Message:: kpi for 2023 already exists
+2024-02-21 23:26:15 error: [POST] /moc-kpis >> StatusCode:: 409, Message:: kpi for 2023 already exists
+2024-02-21 23:27:37 error: [POST] /moc-kpis >> StatusCode:: 409, Message:: kpi for 2023 already exists
+2024-02-21 23:28:09 error: [POST] /moc-kpis >> StatusCode:: 400, Message:: createdBy must be a number conforming to the specified constraints

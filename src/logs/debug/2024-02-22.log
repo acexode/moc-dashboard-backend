@@ -1,0 +1,86 @@
+2024-02-22 10:26:15 info: =================================
+2024-02-22 10:26:15 info: ======= ENV: development =======
+2024-02-22 10:26:15 info: 🚀 App listening on the port 3000
+2024-02-22 10:26:15 info: =================================
+2024-02-22 14:01:01 info: [0mOPTIONS /moc-kpis [32m204[0m 10.198 ms - 0[0m
+2024-02-22 14:01:01 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-22 14:01:01 info: [0mGET /moc-kpis [33m401[0m 30.368 ms - 40[0m
+2024-02-22 14:01:10 info: [0mOPTIONS /auth/login [32m204[0m 1.616 ms - 0[0m
+2024-02-22 14:01:10 error: [POST] /auth/login >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2024-02-22 14:01:10 info: [0mPOST /auth/login [31m500[0m 320.500 ms - 52[0m
+2024-02-22 14:02:07 info: =================================
+2024-02-22 14:02:07 info: ======= ENV: development =======
+2024-02-22 14:02:07 info: 🚀 App listening on the port 3000
+2024-02-22 14:02:07 info: =================================
+2024-02-22 14:03:06 info: [0mOPTIONS /auth/login [32m204[0m 2.738 ms - 0[0m
+2024-02-22 14:03:06 error: [POST] /auth/login >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2024-02-22 14:03:06 info: [0mPOST /auth/login [31m500[0m 54.279 ms - 52[0m
+2024-02-22 14:03:20 info: =================================
+2024-02-22 14:03:20 info: ======= ENV: development =======
+2024-02-22 14:03:20 info: 🚀 App listening on the port 3000
+2024-02-22 14:03:20 info: =================================
+2024-02-22 14:03:35 info: [0mOPTIONS /auth/login [32m204[0m 3.676 ms - 0[0m
+2024-02-22 14:03:35 info: [0mPOST /auth/login [32m200[0m 155.113 ms - 439[0m
+2024-02-22 14:03:38 info: [0mOPTIONS /moc-kpis [32m204[0m 0.342 ms - 0[0m
+2024-02-22 14:03:38 info: [0mGET /moc-kpis [32m200[0m 40.527 ms - -[0m
+2024-02-22 14:17:51 info: [0mOPTIONS /moc-kpis [32m204[0m 0.293 ms - 0[0m
+2024-02-22 14:17:51 info: [0mGET /moc-kpis [36m304[0m 18.558 ms - -[0m
+2024-02-22 14:21:48 info: [0mOPTIONS /moc-kpis [32m204[0m 0.319 ms - 0[0m
+2024-02-22 14:21:48 info: [0mGET /moc-kpis [36m304[0m 12.065 ms - -[0m
+2024-02-22 14:23:11 info: [0mOPTIONS /moc-kpis [32m204[0m 0.223 ms - 0[0m
+2024-02-22 14:23:11 info: [0mGET /moc-kpis [36m304[0m 14.508 ms - -[0m
+2024-02-22 14:24:18 info: [0mOPTIONS /moc-kpis [32m204[0m 0.224 ms - 0[0m
+2024-02-22 14:24:18 info: [0mGET /moc-kpis [36m304[0m 10.659 ms - -[0m
+2024-02-22 14:24:39 info: [0mOPTIONS /moc-kpis [32m204[0m 0.270 ms - 0[0m
+2024-02-22 14:24:39 info: [0mGET /moc-kpis [36m304[0m 13.687 ms - -[0m
+2024-02-22 14:24:53 info: [0mOPTIONS /moc-kpis [32m204[0m 0.669 ms - 0[0m
+2024-02-22 14:24:53 info: [0mGET /moc-kpis [36m304[0m 9.902 ms - -[0m
+2024-02-22 16:16:12 info: [0mOPTIONS /moc-kpis [32m204[0m 0.360 ms - 0[0m
+2024-02-22 16:16:12 error: [GET] /moc-kpis >> StatusCode:: 401, Message:: Wrong authentication token
+2024-02-22 16:16:12 info: [0mGET /moc-kpis [33m401[0m 7.980 ms - 40[0m
+2024-02-22 20:29:56 info: =================================
+2024-02-22 20:29:56 info: ======= ENV: development =======
+2024-02-22 20:29:56 info: 🚀 App listening on the port 3000
+2024-02-22 20:29:56 info: =================================
+2024-02-22 20:30:08 info: =================================
+2024-02-22 20:30:08 info: ======= ENV: development =======
+2024-02-22 20:30:08 info: 🚀 App listening on the port 3000
+2024-02-22 20:30:08 info: =================================
+2024-02-22 20:32:41 info: =================================
+2024-02-22 20:32:41 info: ======= ENV: development =======
+2024-02-22 20:32:41 info: 🚀 App listening on the port 3000
+2024-02-22 20:32:41 info: =================================
+2024-02-22 20:32:46 info: =================================
+2024-02-22 20:32:46 info: ======= ENV: development =======
+2024-02-22 20:32:46 info: 🚀 App listening on the port 3000
+2024-02-22 20:32:46 info: =================================
+2024-02-22 20:36:08 info: =================================
+2024-02-22 20:36:08 info: ======= ENV: development =======
+2024-02-22 20:36:08 info: 🚀 App listening on the port 3000
+2024-02-22 20:36:08 info: =================================
+2024-02-22 20:36:20 info: =================================
+2024-02-22 20:36:20 info: ======= ENV: development =======
+2024-02-22 20:36:20 info: 🚀 App listening on the port 3000
+2024-02-22 20:36:20 info: =================================
+2024-02-22 20:48:45 info: =================================
+2024-02-22 20:48:45 info: ======= ENV: development =======
+2024-02-22 20:48:45 info: 🚀 App listening on the port 3000
+2024-02-22 20:48:45 info: =================================
+2024-02-22 20:49:15 info: =================================
+2024-02-22 20:49:15 info: ======= ENV: development =======
+2024-02-22 20:49:15 info: 🚀 App listening on the port 3000
+2024-02-22 20:49:15 info: =================================
+2024-02-22 20:49:38 info: =================================
+2024-02-22 20:49:38 info: ======= ENV: development =======
+2024-02-22 20:49:38 info: 🚀 App listening on the port 3000
+2024-02-22 20:49:38 info: =================================
+2024-02-22 20:50:07 info: [0mOPTIONS /auth/login [32m204[0m 2.355 ms - 0[0m
+2024-02-22 20:50:07 info: [0mPOST /auth/login [32m200[0m 131.024 ms - 439[0m
+2024-02-22 20:50:12 info: [0mOPTIONS /moc-kpis [32m204[0m 0.153 ms - 0[0m
+2024-02-22 20:50:12 info: [0mGET /moc-kpis [36m304[0m 15.254 ms - -[0m
+2024-02-22 20:56:53 info: [0mOPTIONS /moc-kpis [32m204[0m 0.453 ms - 0[0m
+2024-02-22 20:56:54 info: [0mGET /moc-kpis [36m304[0m 14.801 ms - -[0m
+2024-02-22 20:57:05 info: [0mOPTIONS /users [32m204[0m 0.242 ms - 0[0m
+2024-02-22 20:57:05 info: [0mGET /users [32m200[0m 7.403 ms - 560[0m
+2024-02-22 20:57:07 info: [0mOPTIONS /moc-kpis [32m204[0m 0.321 ms - 0[0m
+2024-02-22 20:57:07 info: [0mGET /moc-kpis [36m304[0m 11.506 ms - -[0m

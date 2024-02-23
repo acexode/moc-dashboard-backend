@@ -1,0 +1,130 @@
+tags:
+- name: kpis
+  description: kpis API
+
+paths:
+# [GET] kpis
+  /moc-kpis:
+    get:
+      tags:
+      - kpis
+      summary: Find KPIS
+      responses:
+        200:
+          description: 'OK'
+        500:
+          description: 'Server Error'
+
+# [POST] kpis
+    post:
+      tags:
+      - kpis
+      summary: Add KPI
+      parameters:
+      - name: body
+        in: body
+        description: KPI Data
+        required: true
+        schema:
+          $ref: '#/definitions/kpis'
+      responses:
+        201:
+          description: 'Created'
+        400:
+          description: 'Bad Request'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'
+
+# [GET] kpis/id
+  /moc-kpis/{id}:
+    get:
+      tags:
+      - kpis
+      summary: Find KPI By Id
+      parameters:
+      - name: id
+        in: path
+        description: KPI Id
+        required: true
+        type: integer
+      responses:
+        200:
+          description: 'OK'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'
+
+# [PUT] kpis/id
+    put:
+      tags:
+      - kpis
+      summary: Update KPI By Id
+      parameters:
+      - name: id
+        in: path
+        description: kpi Id
+        required: true
+        type: integer
+      - name: body
+        in: body
+        description: kpi Data
+        required: true
+        schema:
+          $ref: '#/definitions/kpis'
+      responses:
+        200:
+          description: 'OK'
+        400:
+          description: 'Bad Request'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'
+
+# [DELETE] kpis/id
+    delete:
+      tags:
+      - kpis
+      summary: Delete KPI By Id
+      parameters:
+      - name: id
+        in: path
+        description: kpi Id
+        required: true
+        type: integer
+      responses:
+        200:
+          description: 'OK'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'
+
+# definitions
+definitions:
+  kpis:
+    type: object
+    required:
+        - totalBuget
+        - budgetPercentInc
+        - coveragePercenttInc
+        - year
+    properties:
+      totalBuget:
+        type: number
+        description: total budget
+      budgetPercentInc:
+        type: number
+        description: budget percent increase
+      coveragePercenttInc:
+        type: number
+        description: coverage percent increadr
+      year:
+        type: number
+        description: kpi year
+schemes:
+ - https
+ - http

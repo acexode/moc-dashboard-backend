@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\dev\\Datharm\\MOC-BackendAPI\\src\\logs\\debug\\.0c70a80bceab8d4c3d51d61a3664a33f63e5e8ca-audit.json",
+    "files": [
+        {
+            "date": 1707171597905,
+            "name": "C:\\dev\\Datharm\\MOC-BackendAPI\\src\\logs\\debug\\2024-02-05.log",
+            "hash": "d7b8e8533f7acd4ac652edebfd01d13fe44616fdc8e547021e57142fe1c998db"
+        },
+        {
+            "date": 1707200259426,
+            "name": "C:\\dev\\Datharm\\MOC-BackendAPI\\src\\logs\\debug\\2024-02-06.log",
+            "hash": "3364f9273b23948ae2d7f0dad6d46592ac35bc43ef436f317d70be4b86a2880b"
+        },
+        {
+            "date": 1708326182475,
+            "name": "C:\\dev\\Datharm\\MOC-BackendAPI\\src\\logs\\debug\\2024-02-19.log",
+            "hash": "3bb4e6af7b96ebfbb3e22bf270ee4af67e476b71d20f24f12c2cb67352ab524a"
+        },
+        {
+            "date": 1708513678841,
+            "name": "C:\\dev\\Datharm\\MOC-BackendAPI\\src\\logs\\debug\\2024-02-21.log",
+            "hash": "e0f836043cf51047deb3403d8a5596b78e33bef4ce648f65dfb7ae62db44c6b8"
+        },
+        {
+            "date": 1708593963871,
+            "name": "C:\\dev\\Datharm\\MOC-BackendAPI\\src\\logs\\debug\\2024-02-22.log",
+            "hash": "ac130531f3afd02b40ccc47bfac14ac719875dc75a174929e804b3cc63c8c4e6"
+        },
+        {
+            "date": 1708681497683,
+            "name": "C:\\dev\\Datharm\\MOC-BackendAPI\\src\\logs\\debug\\2024-02-23.log",
+            "hash": "3f04d8f6cf700cdb0341ed165a464b60ae5cf7b7c62fcef03c4936cf3f1d6e62"
+        }
+    ],
+    "hashType": "sha256"
+}
