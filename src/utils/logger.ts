@@ -1,14 +1,16 @@
-import { existsSync, mkdirSync } from 'fs';
-import { join } from 'path';
+import fs from 'fs';
+import path from 'path';
 import winston from 'winston';
 import winstonDaily from 'winston-daily-rotate-file';
-import { LOG_DIR } from '@config';
+const config = require('config');
 
+// const dir = config.get('log.dir');
+// console.log(config);
 // logs dir
-const logDir: string = join(__dirname, LOG_DIR);
+const logDir: string = path.join(__dirname, '../logs');
 
-if (!existsSync(logDir)) {
-  mkdirSync(logDir);
+if (!fs.existsSync(logDir)) {
+  fs.mkdirSync(logDir);
 }
 
 // Define log format
