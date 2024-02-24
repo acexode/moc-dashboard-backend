@@ -1,7 +1,7 @@
 import { Repository } from 'typeorm';
 import { Service } from 'typedi';
 
-import { HttpException } from '@/exceptions/httpException';
+import { HttpException } from '@exceptions/httpException';
 import { MOCKPIEntity } from '@/entities/mockpi.entity';
 import { IMocKPI } from '@/interfaces/mockpi.interface';
 
