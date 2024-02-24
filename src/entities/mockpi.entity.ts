@@ -1,5 +1,5 @@
 import { IsNotEmpty } from 'class-validator';
-import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, ManyToOne } from 'typeorm';
+import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, ManyToOne, Relation } from 'typeorm';
 import { IMocKPI } from '@/interfaces/mockpi.interface';
 import { UserEntity } from './users.entity';
 @Entity()
@@ -24,10 +24,10 @@ export class MOCKPIEntity extends BaseEntity implements IMocKPI {
   year: number;
 
   @ManyToOne(() => UserEntity, user => user.kpiCreated)
-  createdBy: UserEntity;
+  createdBy: Relation<UserEntity>;
 
   @ManyToOne(() => UserEntity, user => user.kpiUpdated)
-  updatedBy: UserEntity;
+  updatedBy: Relation<UserEntity>;
 
   @Column()
   @CreateDateColumn()

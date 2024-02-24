@@ -1,5 +1,5 @@
 import { IsNotEmpty } from 'class-validator';
-import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, Unique, CreateDateColumn, UpdateDateColumn, OneToMany } from 'typeorm';
+import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, Unique, CreateDateColumn, UpdateDateColumn, OneToMany, Relation } from 'typeorm';
 import { User } from '@interfaces/users.interface';
 import { MOCKPIEntity } from './mockpi.entity';
 
@@ -38,10 +38,10 @@ export class UserEntity extends BaseEntity implements User {
   createdAt: Date;
 
   @OneToMany(() => MOCKPIEntity, kpi => kpi.createdBy)
-  kpiCreated: MOCKPIEntity[];
+  kpiCreated: Relation<MOCKPIEntity>[];
 
   @OneToMany(() => MOCKPIEntity, kpi => kpi.updatedBy)
-  kpiUpdated: MOCKPIEntity[];
+  kpiUpdated: Relation<MOCKPIEntity>[];
 
   @Column()
   @UpdateDateColumn()
