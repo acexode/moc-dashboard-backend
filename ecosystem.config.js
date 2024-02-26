@@ -38,8 +38,7 @@
       merge_logs: true, // if true, stdout and stderr will be merged and sent to pm2 log
       output: './logs/access.log', // pm2 log file
       error: './logs/error.log', // pm2 error log file
-      env: { // environment variable
-        PORT: 3000,
+      env: { // environ: 3000,
         NODE_ENV: 'development',
       },
     },
