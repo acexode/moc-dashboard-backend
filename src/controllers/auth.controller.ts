@@ -21,10 +21,10 @@ export class AuthController {
   public logIn = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
       const userData: User = req.body;
-      const { cookie, tokenData, findUser } = await this.auth.login(userData);
+      const { cookie, tokenData, findUser, proxyUser } = await this.auth.login(userData);
 
       res.setHeader('Set-Cookie', [cookie]);
-      res.status(200).json({ token: tokenData.token, user: findUser, message: 'login' });
+      res.status(200).json({ token: tokenData.token, user: findUser, proxyUser, message: 'login' });
     } catch (error) {
       next(error);
     }

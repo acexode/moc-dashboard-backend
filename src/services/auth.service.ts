@@ -2,11 +2,12 @@ import { compare, hash } from 'bcrypt';
 import { sign } from 'jsonwebtoken';
 import { Service } from 'typedi';
 import { EntityRepository, Repository } from 'typeorm';
-import { SECRET_KEY } from '@config';
+import { PROXY_USER_EMAIL, PROXY_USER_PASSWORD, SECRET_KEY } from '@config';
 import { UserEntity } from '@entities/users.entity';
 import { HttpException } from '../exceptions/HttpException';
 import { DataStoredInToken, TokenData } from '@interfaces/auth.interface';
 import { User } from '@interfaces/users.interface';
+import { proxyLogin } from './proxyLogin';
 
 const createToken = (user: User): TokenData => {
   const dataStoredInToken: DataStoredInToken = { id: user.id };
@@ -32,7 +33,7 @@ export class AuthService extends Repository<UserEntity> {
     return createUserData;
   }
 
-  public async login(userData: User): Promise<{ cookie: string; findUser: User; tokenData: TokenData }> {
+  public async login(userData: User): Promise<{ cookie: string; findUser: User; tokenData: TokenData; proxyUser: any }> {
     const findUser: User = await UserEntity.findOne({ where: { email: userData.email } });
     if (!findUser) throw new HttpException(409, `This email ${userData.email} was not found`);
 
@@ -41,8 +42,10 @@ export class AuthService extends Repository<UserEntity> {
 
     const tokenData = createToken(findUser);
     const cookie = createCookie(tokenData);
+    const proxyUser = await proxyLogin(PROXY_USER_EMAIL, PROXY_USER_PASSWORD);
+    console.log(proxyUser.data);
 
-    return { cookie, findUser, tokenData };
+    return { cookie, findUser, tokenData, proxyUser: proxyUser.data };
   }
 
   public async logout(userData: User): Promise<User> {
