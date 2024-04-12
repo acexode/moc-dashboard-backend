@@ -34,8 +34,9 @@ export class UserService extends Repository<UserEntity> {
     const findUser: User = await UserEntity.findOne({ where: { id: userId } });
     if (!findUser) throw new HttpException(409, "User doesn't exist");
 
-    const hashedPassword = await hash(userData.password, 10);
-    await UserEntity.update(userId, { ...userData, password: hashedPassword });
+    // const hashedPassword = await hash(userData.password, 10);
+    // await UserEntity.update(userId, { ...userData, password: hashedPassword });
+    await UserEntity.update(userId, { ...userData });
 
     const updateUser: User = await UserEntity.findOne({ where: { id: userId } });
     return updateUser;
