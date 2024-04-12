@@ -30,12 +30,6 @@ export class CreateUserDto {
 export class UpdateUserDto {
   @IsString()
   @IsNotEmpty()
-  @MinLength(9)
-  @MaxLength(32)
-  public password: string;
-
-  @IsString()
-  @IsNotEmpty()
   public firstName: string;
 
   @IsString()
