@@ -15,4 +15,19 @@ export class ProxyController {
       next(error);
     }
   };
+  public fetchDataById = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const url = req.url.slice('/proxy-data'.length);
+      const id = req.params.id;
+      console.log(url + id);
+      const token = req.header('Authorization');
+      //   const userData = req.body;
+      const response = await proxyFetch({ token, url });
+      //   console.log(response.data);
+      const data = response.data;
+      res.status(201).json(data);
+    } catch (error) {
+      next(error);
+    }
+  };
 }

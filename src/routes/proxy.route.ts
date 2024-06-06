@@ -15,6 +15,9 @@ export class ProxyRoute implements Routes {
     this.router.get(`${this.path}/dhis/utilization`, this.proxyController.fetchData);
     this.router.get(`${this.path}/state-assessment-indicators/proportion`, this.proxyController.fetchData);
     this.router.get(`${this.path}/lga-assessment-indicators/proportion`, this.proxyController.fetchData);
+    this.router.get(`${this.path}/lga-assessments/count/lga/:id`, this.proxyController.fetchData);
+    this.router.get(`${this.path}/state-assessments/count/state/:id`, this.proxyController.fetchData);
+    this.router.get(`${this.path}/assessments/m-and-e/count/hf/:id`, this.proxyController.fetchData);
     this.router.get(`${this.path}/me-assessment-indicators/proportion`, this.proxyController.fetchData);
     this.router.get(`${this.path}/locations/lgas`, this.proxyController.fetchData);
     this.router.get(`${this.path}/locations/wards`, this.proxyController.fetchData);
